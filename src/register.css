@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.card {
+    padding: 80px;
+    
+
+}
+
+label{
+    padding-bottom: -10px;
+}
+
+.avatar {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+button{
+    margin: 0 auto;
+    display: block;
+}
+.notice {
+    padding: 10px;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+.notice.error {
+    border: 2px solid #762c2c;
+    background: #f3d3d3;
+    color: #762c2c;
+}
